@@ -9,7 +9,7 @@ export function useTasks() {
         return JSON.parse(saved);
       }
     } catch (e) {
-      console.error('Failed to load tasks from local storage', e);
+      console.error('Failed to load tasks from local storage.', e);
     }
     return [];
   });
@@ -18,7 +18,7 @@ export function useTasks() {
     try {
       localStorage.setItem('tasks', JSON.stringify(tasks));
     } catch (e) {
-      console.error('Failed to save tasks to local storage', e);
+      console.error('Failed to save tasks to local storage.', e);
     }
   }, [tasks]);
 
@@ -34,7 +34,7 @@ export function useTasks() {
   };
 
   const toggleTask = (id: string) => {
-    setTasks(prev => prev.map(task => 
+    setTasks(prev => prev.map(task =>
       task.id === id ? { ...task, completed: !task.completed } : task
     ));
   };

@@ -132,7 +132,7 @@ export default function App() {
                     <button
                       onClick={() => deleteTask(task.id)}
                       className="ml-4 flex-shrink-0 text-slate-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-all duration-200 focus:opacity-100 p-2 rounded-md hover:bg-red-50 dark:text-slate-500 dark:hover:text-red-400 dark:hover:bg-red-500/10"
-                      aria-label="Delete task"
+                      aria-label="Delete task."
                     >
                       <Trash2 className="h-4 w-4" />
                     </button>
@@ -142,16 +142,16 @@ export default function App() {
             </AnimatePresence>
           </ul>
         </div>
-        
+
         {tasks.length > 0 && (
           <div className="flex justify-between items-center text-xs text-slate-400 dark:text-slate-500 mt-4 px-2">
-            <span>{tasks.filter(t => !t.completed).length} items left</span>
+            <span>{tasks.filter(t => !t.completed).length} items left.</span>
             {tasks.some(t => t.completed) && (
-              <button 
+              <button
                 onClick={() => tasks.filter(t => t.completed).forEach(t => deleteTask(t.id))}
                 className="hover:text-slate-700 dark:hover:text-slate-300 transition-colors"
               >
-                Clear completed
+                Clear completed.
               </button>
             )}
           </div>
@@ -160,9 +160,9 @@ export default function App() {
         <div className="pt-8 pb-4 text-center text-xs text-slate-400 dark:text-slate-500">
           <p>
             Source code available on{' '}
-            <a 
-              href="https://github.com/sheeeng/track-tasks" 
-              target="_blank" 
+            <a
+              href="https://github.com/sheeeng/track-tasks"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300 underline underline-offset-2 transition-colors"
             >
