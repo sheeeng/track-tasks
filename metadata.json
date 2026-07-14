@@ -1,6 +1,8 @@
 {
   "name": "Track Tasks",
-  "description": "Tracking tasks using Web Storage API's Local Storage.",
+  "description": "Track tasks using Web Storage API's Local Storage.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

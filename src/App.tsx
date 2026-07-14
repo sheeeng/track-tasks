@@ -27,7 +27,7 @@ export default function App() {
             Track Tasks
           </h1>
           <p className="mt-2 text-center text-sm text-slate-500 dark:text-slate-400">
-            Tracking tasks using Web Storage API's Local Storage.
+            Track tasks using Web Storage API's Local Storage.
           </p>
           <div className="mt-4 w-full text-left text-xs text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 rounded-lg shadow-sm overflow-hidden transition-all duration-200">
             <button
