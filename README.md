@@ -44,12 +44,3 @@ If you prefer not to install [`just`](https://github.com/casey/just), use [`npm`
 3. Open your browser and navigate to the URL provided in the terminal.
 
     `http://localhost:3000`
-
-## just Recipes
-
-- `just install`
-- `just dev`
-- `just build`
-- `just preview`
-- `just lint`
-- `just clean`
