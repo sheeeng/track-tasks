@@ -11,14 +11,45 @@ Track Tasks is a simple client-side application built with React and Tailwind CS
     cd track-tasks
     ```
 
-2. Install dependencies.
+2. Install [just](https://github.com/casey/just).
+
+3. Install dependencies.
+
+    ```shell
+    just install
+    ```
+
+4. Run the development server.
+
+    ```shell
+    just dev
+    ```
+
+5. Open your browser and navigate to the URL provided in the terminal.
+
+    `http://localhost:3000`
+
+### Alternative
+
+If you prefer not to install [`just`](https://github.com/casey/just), use [`npm`](https://github.com/npm/cli) directly.
+
+1. Install dependencies.
 
     `npm install`
 
-3. Run the development server.
+2. Run the development server.
 
     `npm run dev`
 
-4. Open your browser and navigate to the URL provided in the terminal.
+3. Open your browser and navigate to the URL provided in the terminal.
 
     `http://localhost:3000`
+
+## just Recipes
+
+- `just install`
+- `just dev`
+- `just build`
+- `just preview`
+- `just lint`
+- `just clean`
