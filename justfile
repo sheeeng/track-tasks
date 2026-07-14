@@ -1,6 +1,6 @@
 # Use zsh for recipe execution.
-# `-o nounset` fails fast on unset variables.
-# `-c` reads the recipe command string.
+# The `-o nounset` option fails fast on unset variables.
+# The `-c` option reads the recipe command string.
 set shell := ["zsh", "-o", "nounset", "-c"]
 
 default:
