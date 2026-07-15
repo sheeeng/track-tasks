@@ -65,7 +65,7 @@ export default function App() {
         </div>
 
         <form onSubmit={handleSubmit} className="mt-8 space-y-6">
-          <div className="relative rounded-md shadow-sm">
+          <div className="relative">
             <input
               type="text"
               value={inputValue}
