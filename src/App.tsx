@@ -4,6 +4,7 @@
  */
 
 import { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { useTasks } from './hooks/useTasks';
 import { Plus, Check, Trash2, Circle, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -172,6 +173,7 @@ export default function App() {
           </p>
         </div>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
