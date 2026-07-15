@@ -160,7 +160,7 @@ export default function App() {
 
         <div className="pt-8 pb-4 text-center text-xs text-slate-400 dark:text-slate-500">
           <p>
-            Made with 💚 by{' '}
+            Made with 💚 by{' '}.
             <a
               href="https://github.com/sheeeng/track-tasks"
               target="_blank"
