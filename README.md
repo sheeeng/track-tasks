@@ -47,7 +47,7 @@ If you prefer not to install [`just`](https://github.com/casey/just), use [`npm`
 
 ## License
 
-This work is dual licensed under the Apache License 2.0 and the MIT License.
+This work is dual licensed under the [Apache License 2.0](LICENSE-APACHE) and the [MIT License](LICENSE-MIT).
 
 You may choose either license when you use this work.
 
