@@ -4,7 +4,6 @@
  */
 
 import { useState } from 'react';
-import { SpeedInsights } from '@vercel/speed-insights/react';
 import { useTasks } from './hooks/useTasks';
 import { Plus, Check, Trash2, Circle, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -159,8 +158,7 @@ export default function App() {
         )}
 
       </div>
-      <SpeedInsights />
-      <div className="mt-auto pt-8 pb-4 text-center text-xs text-slate-400 dark:text-slate-500">
+<div className="mt-auto pt-8 pb-4 text-center text-xs text-slate-400 dark:text-slate-500">
         <p>
           Made with 💚 by{' '}
           <a
