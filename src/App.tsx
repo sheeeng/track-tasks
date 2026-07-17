@@ -170,7 +170,8 @@ export default function App() {
           >
             Leonard
           </a>
-          .
+          {'. '}
+          {import.meta.env.VITE_GIT_COMMIT_SHA?.slice(0, 8) ?? 'dev'}
         </p>
       </div>
     </div>
