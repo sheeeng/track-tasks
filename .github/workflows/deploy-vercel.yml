@@ -39,6 +39,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_GIT_COMMIT_SHA: ${{ github.sha }}
 
       - name: Install Vercel CLI
         run: npm install --global vercel@latest

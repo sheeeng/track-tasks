@@ -43,6 +43,7 @@ jobs:
         run: npm run build
         env:
           VITE_BASE_PATH: /track-tasks/
+          VITE_GIT_COMMIT_SHA: ${{ github.sha }}
 
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
