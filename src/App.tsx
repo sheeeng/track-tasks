@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { useTasks } from './hooks/useTasks';
-import { Plus, Check, Trash2, Circle, ChevronDown, ClipboardList } from 'lucide-react';
+import { Plus, Check, Trash2, Circle, ChevronDown, CheckSquare } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
       <div className="w-full max-w-md space-y-8">
         <div className="flex flex-col items-center">
           <h1 className="flex items-center gap-2 text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-50">
-            <ClipboardList className="h-8 w-8" />
+            <CheckSquare className="h-8 w-8" />
             Track Tasks
           </h1>
           <p className="mt-2 text-center text-sm text-slate-500 dark:text-slate-400">
