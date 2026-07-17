@@ -161,7 +161,7 @@ export default function App() {
       </div>
 <div className="mt-auto pt-8 pb-4 text-center text-xs text-slate-400 dark:text-slate-500">
         <p>
-          Made with 💚 by{' '}
+          Built from <code className="font-mono">{import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR ?? 'dev'}</code>. Made with 💚 by{' '}
           <a
             href="https://github.com/sheeeng/track-tasks"
             target="_blank"
@@ -172,7 +172,6 @@ export default function App() {
           </a>
           .
         </p>
-        <p>Version: <code className="font-mono">{import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR ?? 'dev'}</code></p>
       </div>
     </div>
   );
