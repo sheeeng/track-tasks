@@ -45,6 +45,14 @@ If you prefer not to install [`just`](https://github.com/casey/just), use [`npm`
 
     `http://localhost:3000`
 
+## Deployments
+
+- [https://track-tasks-3bac89b9.web.app/](https://track-tasks-3bac89b9.web.app/)
+- [https://track-tasks-3bac89b9.firebaseapp.com/](https://track-tasks-3bac89b9.firebaseapp.com/)
+- [track-tasks-eight.netlify.app](https://track-tasks-eight.netlify.app/)
+- [track-tasks-eight.vercel.app](https://track-tasks-eight.vercel.app/)
+- [sheeeng.github.io/track-tasks](https://sheeeng.github.io/track-tasks/)
+
 ## License
 
 This work is dual licensed under the [Apache License 2.0](LICENSE-APACHE) and the [MIT License](LICENSE-MIT).
