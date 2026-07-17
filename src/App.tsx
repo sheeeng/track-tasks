@@ -172,7 +172,7 @@ export default function App() {
           </a>
           .
         </p>
-        <p>Version: <code className="font-mono">{import.meta.env.VITE_GIT_COMMIT_SHA?.slice(0, 8) ?? 'dev'}</code></p>
+        <p>Version: <code className="font-mono">{import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR ?? 'dev'}</code></p>
       </div>
     </div>
   );

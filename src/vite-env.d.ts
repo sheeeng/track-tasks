@@ -2,7 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_BASE_PATH: string;
-  readonly VITE_GIT_COMMIT_SHA: string;
+  readonly VITE_GIT_COMMIT_SHA_8_CHAR: string;
 }
 
 interface ImportMeta {
