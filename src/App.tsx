@@ -70,7 +70,7 @@ export default function App() {
               type="text"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              className="block w-full rounded-xl border-0 py-4 pl-4 pr-12 text-slate-900 ring-1 ring-inset ring-slate-200 placeholder:text-slate-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-white shadow-sm transition-all duration-200 dark:bg-slate-900 dark:text-slate-50 dark:ring-slate-800 dark:placeholder:text-slate-500 dark:focus:ring-indigo-500"
+              className="block w-full rounded-xl border-0 py-4 pl-4 pr-12 text-slate-900 ring-1 ring-inset ring-slate-200 placeholder:text-slate-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-white shadow-sm transition-all duration-200 dark:bg-slate-800 dark:text-slate-50 dark:ring-slate-700 dark:placeholder:text-slate-500 dark:focus:ring-indigo-500"
               placeholder="What needs to be done?"
             />
             <button
