@@ -167,7 +167,7 @@ export default function App() {
               href={`https://github.com/sheeeng/track-tasks/commit/${import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300 underline underline-offset-2 transition-colors"
+              className="text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300 no-underline transition-colors"
             >
               {import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR}
             </a>
