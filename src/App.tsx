@@ -161,16 +161,20 @@ export default function App() {
       </div>
 <div className="mt-auto pt-8 pb-4 text-center text-xs text-slate-400 dark:text-slate-500">
         <p>
-          Built from <code className="font-mono">{import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR ?? 'dev'}</code>. Made with 💚 by{' '}
-          <a
-            href="https://github.com/sheeeng/track-tasks"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300 underline underline-offset-2 transition-colors"
-          >
-            Leonard
-          </a>
-          .
+          Built from{' '}
+          {import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR ? (
+            <a
+              href={`https://github.com/sheeeng/track-tasks/commit/${import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300 underline underline-offset-2 transition-colors"
+            >
+              {import.meta.env.VITE_GIT_COMMIT_SHA_8_CHAR}
+            </a>
+          ) : (
+            'dev'
+          )}
+          . Made with 💚 by Leonard.
         </p>
       </div>
     </div>
