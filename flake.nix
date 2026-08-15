@@ -23,6 +23,7 @@
         {
           default = pkgs.mkShell {
             packages = with pkgs; [
+              google-cloud-sdk # https://search.nixos.org/packages?channel=unstable&type=packages&show=google-cloud-sdk
               nodejs-slim # https://search.nixos.org/packages?channel=unstable&type=packages&show=nodejs-slim
             ];
 
@@ -38,7 +39,6 @@
               export PATH="$VERCEL_PREFIX/bin:$PATH"
 
               echo "Vercel CLI is ready to use!"
-              vercel --version
             '';
           };
         }
