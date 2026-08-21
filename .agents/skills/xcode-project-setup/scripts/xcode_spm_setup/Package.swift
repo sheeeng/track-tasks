@@ -5,7 +5,7 @@ let package = Package(
     name: "xcode_spm_setup",
     platforms: [.macOS(.v13)],
     dependencies: [
-        .package(url: "https://github.com/tuist/XcodeProj.git", .upToNextMajor(from: "9.15.1")),
+        .package(url: "https://github.com/tuist/XcodeProj.git", .upToNextMajor(from: "9.16.0")),
     ],
     targets: [
         .executableTarget(
